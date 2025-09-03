@@ -1,0 +1,60 @@
+.full-image {
+    height: 100vh; /* Set the height of the full-size image */
+    background-image: url('images/Pink\ &\ Black.jpg'); /* Add your services image URL here */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: left;
+  }
+
+  .services-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffa500;
+  }
+
+  .services-description {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .card-img-top {
+    height: 300px; /* Adjust the height as needed */
+    object-fit: cover; /* This ensures the image covers the entire space */
+}
+
+
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card-img-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .card-body {
+    background-color: #ffffff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .card-title {
+    color: #343a40;
+    font-weight: bold;
+  }
+
+  .card-text {
+    color: #6c757d;
+  }
+
+  .service-section {
+    margin-top: 50px;
+  }
